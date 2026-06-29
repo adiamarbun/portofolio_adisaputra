@@ -1,4 +1,4 @@
-const scrollup = document.querySelector(".scroll-up");
+const scrollUp = document.querySelector(".scroll-up");
 
 window.onscroll = () => {
   if (window.scrollY > 500) {
