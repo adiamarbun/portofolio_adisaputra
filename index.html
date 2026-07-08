@@ -1,445 +1,501 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="./portfolio-hcj/assets/icon/favicon1.ico" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./src/css/style.css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./portfolio-hcj/assets/icon/favicon1.ico" type="image/x-icon" />
 
-    <!-- Font Poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./src/css/style.css" />
 
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <!-- AOS Animation CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
-    <title>Adisaputra Marbun | Portfolio</title>
-  </head>
-  <body id="beranda">
-    <!-- Scroll To Top Button -->
-    <div class="scroll-up">
-      <a href="#beranda" aria-label="Scroll to top">
-        <i class="fa-solid fa-arrow-up"></i>
-      </a>
-    </div>
+  <!-- Font Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
 
-    <!-- Header & Navigation -->
-    <header>
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-box">
-            <a href="#beranda" class="logo">Adisaputra<span>.</span></a>
-            <ul class="menu">
-              <li><a href="#about">About</a></li>
-              <li><a href="#resume">Resume</a></li>
-              <li><a href="#project">Project</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="container">
-          <div class="hero-grid">
-            <div class="hero-content" data-aos="fade-right" data-aos-duration="1200">
-              <span class="badge">Welcome to my space</span>
-              <h1>
-                Hi, I'm <span id="element"></span>
-              </h1>
-              <p class="hero-subtitle">Junior Web Developer & Data Analyst | IT Support Specialist</p>
-              <p class="hero-desc">
-                A passionate Informatics graduate from Universitas Bina Sarana Informatika. Specialized in developing responsive web platforms, performing data analytics, and providing professional IT operations & system troubleshooting support.
-              </p>
-              <div class="hero-ctas">
-                <a href="#contact" class="btn btn-primary">Let's Connect</a>
-                <a href="#project" class="btn btn-secondary">View My Work</a>
-              </div>
-            </div>
-            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
-              <div class="image-wrapper">
-                <img src="./portfolio-hcj/assets/images/hero2.webp" alt="Hero Adisaputra Marbun" />
-                <div class="glow-bg"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-      <!-- Waves Bottom Hero -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-top-about">
-        <path
-          fill-opacity="1"
-          d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </header>
+  <title>Adisaputra Marbun | Portfolio</title>
+</head>
 
-    <!-- About Me Section -->
-    <section class="tentang" id="about">
+<body id="beranda">
+  <!-- Scroll To Top Button -->
+  <div class="scroll-up">
+    <a href="#beranda" aria-label="Scroll to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header>
+    <nav class="navbar">
       <div class="container">
-        <h1 data-aos="fade-up" data-aos-duration="1000">About Me</h1>
-        <div class="tentang-box">
-          <div class="bio-grid">
-            <img src="./portfolio-hcj/assets/images/hero3.webp" alt="Adisaputra Bio" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" />
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-              <span class="badge">My Bio</span>
-              <p>
-                Hi, I am <span>Adisaputra Marbun</span>, a Bachelor of Informatics graduate from Universitas Bina Sarana Informatika with experience in supporting Information Technology operations, web application development, and troubleshooting system infrastructure. I am proficient in installing, configuring, and troubleshooting hardware and software in Windows and Linux environments. Highly committed to continuous learning, adapting quickly, and delivering effective IT solutions to support smooth business operations.
-              </p>
-              
-              <!-- Stats Grid -->
-              <div class="stats-grid">
-                <div class="stat-card">
-                  <h3>1.5+</h3>
-                  <p>Years Experience</p>
-                </div>
-                <div class="stat-card">
-                  <h3>10+</h3>
-                  <p>Projects Completed</p>
-                </div>
-                <div class="stat-card">
-                  <h3>30+</h3>
-                  <p>Students Trained</p>
-                </div>
-              </div>
-              
-              <a href="#project" class="btn btn-primary" style="margin-top: 30px;">View Project List</a>
+        <div class="navbar-box">
+          <a href="#beranda" class="logo">Adisaputra<span>.</span></a>
+          <ul class="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content" data-aos="fade-right" data-aos-duration="1200">
+            <span class="badge">Welcome to my space</span>
+            <h1>
+              Hi, I'm <span id="element"></span>
+            </h1>
+            <p class="hero-subtitle">Junior Web Developer & Data Analyst | IT Support Specialist</p>
+            <p class="hero-desc">
+              A passionate Informatics graduate from Universitas Bina Sarana Informatika. Specialized in developing
+              responsive web platforms, performing data analytics, and providing professional IT operations & system
+              troubleshooting support.
+            </p>
+            <div class="hero-ctas">
+              <a href="#contact" class="btn btn-primary">Let's Connect</a>
+              <a href="#project" class="btn btn-secondary">View My Work</a>
             </div>
           </div>
-
-          <!-- Education Sub-section -->
-          <div class="education" data-aos="fade-up" data-aos-duration="1000">
-            <h2>Education</h2>
-            <div class="education-card">
-              <div class="education-left">
-                <h2>S1-Informatika</h2>
-                <h3>Universitas Bina Sarana Informatika</h3>
-                <p>2021 - 2025</p>
-                <span class="gpa-badge">GPA: 3.56 / 4.00</span>
-              </div>
-              <div class="education-right">
-                <p>
-                  Studied the fundamentals of information technology, software engineering, database management systems (DBMS), computer networks, and information systems. Developed a strong technical portfolio through academic projects, independent internships, and hands-on exploration in web development, data analysis, and systems administration.
-                </p>
-              </div>
+          <div class="hero-visual" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+            <div class="image-wrapper">
+              <img src="./portfolio-hcj/assets/images/hero2.webp" alt="Hero Adisaputra Marbun" />
+              <div class="glow-bg"></div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Wave divider to Resume -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-bottom-about">
-      <path
-        fill-opacity="1"
-        d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-      ></path>
-    </svg>
-
-    <!-- Resume / Experience Section -->
-    <section class="resume" id="resume">
-      <div class="container">
-        <div class="resume-header">
-          <span class="badge">Career Path</span>
-          <h1 data-aos="fade-up" data-aos-duration="1000">Resume</h1>
-          <div class="experience-title-row">
-            <h2>Experience</h2>
-            <a href="https://drive.google.com/file/d/1xaUJxJRwRnnhdfVjPtlbMPhBjkxAo_3G/view?usp=drive_link" class="btn-download" target="_blank">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-              Download CV
-            </a>
-          </div>
-        </div>
-
-        <div class="resume-box">
-          <!-- Experience Card 1 -->
-          <div class="resume-card" data-aos="fade-up" data-aos-duration="1000">
-            <div class="info-side">
-              <h3 class="job-title">Trainer Robotics</h3>
-              <p class="company-name">PT Jaringan Global Robotik</p>
-              <p class="job-date"><i class="fa-regular fa-calendar-days" style="margin-right: 5px;"></i> Juni 2025 - Present</p>
-              <span class="job-status">Part-Time</span>
-            </div>
-            <div class="desc-side">
-              <ul>
-                <li>Provided robotics, programming, and Internet of Things (IoT) training sessions to more than 30 participants.</li>
-                <li>Collaborated with a team of 35 instructors to design comprehensive curriculum modules and hands-on microcontroller projects.</li>
-                <li>Provided prompt onsite and remote technical support to debug hardware wiring and resolve connectivity failures during labs.</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Experience Card 2 (DUPLICATE COPY FIXED) -->
-          <div class="resume-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-            <div class="info-side">
-              <h3 class="job-title">IT Support Staff</h3>
-              <p class="company-name">Kementerian Energi dan Sumber Daya Mineral</p>
-              <p class="job-date"><i class="fa-regular fa-calendar-days" style="margin-right: 5px;"></i> Sep 2024 - Des 2024</p>
-              <span class="job-status">Internship</span>
-            </div>
-            <div class="desc-side">
-              <ul>
-                <li>Diagnosed and troubleshot client-side hardware, software, and local network issues to ensure uninterrupted daily workflow.</li>
-                <li>Supported system maintenance by managing periodic server backups and assisting in configuring secure server setups.</li>
-                <li>Installed, configured, and updated Windows and Linux systems alongside custom business software for ministry staff.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="project" id="project">
-      <div class="container">
-        <span class="badge" style="display: table; margin: 0 auto 10px auto;">Portfolio</span>
-        <h1 data-aos="fade-up" data-aos-duration="1000">Selected Projects</h1>
-        <p class="section-subtitle">A collection of web development and software projects</p>
-
-        <div class="project-grid">
-          <!-- Project 1 -->
-          <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
-            <div class="img-container">
-              <img src="./portfolio-hcj/assets/images/proyek/proyek5.webp" alt="LeafCheck App Screenshot" />
-            </div>
-            <div class="project-desc">
-              <h2>LeafCheck</h2>
-              <p>Developed a deep learning computer vision model in Python for plant leaf disease classification with over 4,000 processed images achieving 95% evaluation accuracy.</p>
-              <div class="project-tags">
-                <span>Python</span>
-                <span>Deep Learning</span>
-                <span>TensorFlow</span>
-                <span>Vercel</span>
-              </div>
-              <div class="project-btn">
-                <a href="https://leafcheck.vercel.app/" target="_blank">
-                  Visit Website <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8rem; margin-left: 5px;"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 2 -->
-          <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-            <div class="img-container">
-              <img src="./portfolio-hcj/assets/images/proyek/proyek6.webp" alt="BengkelGO Landing Page Screenshot" />
-            </div>
-            <div class="project-desc">
-              <h2>Website Company</h2>
-              <p>A professional company profile website for an automotive workshop, featuring modern responsive layout cards, custom layouts, and interactive UI components.</p>
-              <div class="project-tags">
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>Bootstrap</span>
-                <span>Responsive</span>
-              </div>
-              <div class="project-btn">
-                <a href="https://dieselgank.github.io/BengkelGO_LandingPage-Template/" target="_blank">
-                  Visit Website <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8rem; margin-left: 5px;"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Project 3 -->
-          <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-            <div class="img-container">
-              <img src="./portfolio-hcj/assets/images/proyek/proyek7.webp" alt="BengkelGO Cashier Template Screenshot" />
-            </div>
-            <div class="project-desc">
-              <h2>Website Course</h2>
-              <p>Designed a clean online course and cashier management dashboard template, utilizing robust grid configurations, stats cards, and invoice structures.</p>
-              <div class="project-tags">
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>JavaScript</span>
-                <span>CSS Grid</span>
-              </div>
-              <div class="project-btn">
-                <a href="https://dieselgank.github.io/BengkelGO_CashierPage-Template/" target="_blank">
-                  Visit Website <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.8rem; margin-left: 5px;"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Technologies Section (FIXED LOGOS) -->
-    <section class="tools" id="tools">
-      <div class="container">
-        <span class="badge" style="display: table; margin: 0 auto 10px auto;">Tech Stack</span>
-        <h1 data-aos="fade-up" data-aos-duration="1000">Technologies & Tools</h1>
-        <p class="section-subtitle">Languages, libraries, frameworks, and applications I use</p>
-        
-        <div class="tools-grid" data-aos="fade-up" data-aos-duration="1000">
-          <!-- 1 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/html.png" alt="HTML5 logo" />
-            <div>
-              <h3>HTML5 & CSS3</h3>
-              <p>Markup & Styles</p>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/js.png" alt="JavaScript logo" />
-            <div>
-              <h3>JavaScript</h3>
-              <p>Language</p>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/python.png" alt="Python logo" />
-            <div>
-              <h3>Python</h3>
-              <p>Language</p>
-            </div>
-          </div>
-          <!-- 4 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/php.png" alt="PHP logo" />
-            <div>
-              <h3>PHP</h3>
-              <p>Language</p>
-            </div>
-          </div>
-          <!-- 5 (FIXED Next JS logo path) -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/nextjs.png" alt="Next.js logo" />
-            <div>
-              <h3>Next.js</h3>
-              <p>React Framework</p>
-            </div>
-          </div>
-          <!-- 6 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/reactjs.png" alt="React JS logo" />
-            <div>
-              <h3>React JS</h3>
-              <p>Library</p>
-            </div>
-          </div>
-          <!-- 7 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/nodejs.png" alt="Node JS logo" />
-            <div>
-              <h3>Node.js</h3>
-              <p>JS Runtime</p>
-            </div>
-          </div>
-          <!-- 8 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/tailwind.png" alt="Tailwind CSS logo" />
-            <div>
-              <h3>Tailwind CSS</h3>
-              <p>CSS Framework</p>
-            </div>
-          </div>
-          <!-- 9 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/bootstrap.png" alt="Bootstrap logo" />
-            <div>
-              <h3>Bootstrap</h3>
-              <p>CSS Framework</p>
-            </div>
-          </div>
-          <!-- 10 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/vscode.png" alt="VS Code logo" />
-            <div>
-              <h3>VS Code</h3>
-              <p>Code Editor</p>
-            </div>
-          </div>
-          <!-- 11 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/figma.png" alt="Figma logo" />
-            <div>
-              <h3>Figma</h3>
-              <p>Design App</p>
-            </div>
-          </div>
-          <!-- 12 -->
-          <div class="tool-card">
-            <img src="./portfolio-hcj/assets/images/tools/github.png" alt="GitHub logo" />
-            <div>
-              <h3>GitHub</h3>
-              <p>Repository</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Wave divider to Footer -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-footer">
-      <path
-        fill-opacity="1"
+    <!-- Waves Bottom Hero -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-top-about">
+      <path fill-opacity="1"
         d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path>
     </svg>
+  </header>
 
-    <!-- Contact & Footer Section -->
-    <footer id="contact">
-      <div class="footer-cta" data-aos="fade-up" data-aos-duration="1000">
-        <h2>Let's build something together!</h2>
-        <p>If you're looking for a web developer, data analyst, or IT specialist, feel free to reach out via email or socials.</p>
-        <a href="mailto:adiamrbn8@gmail.com">adiamrbn8@gmail.com</a>
+  <!-- About Me Section -->
+  <section class="tentang" id="about">
+    <div class="container">
+      <h1 data-aos="fade-up" data-aos-duration="1000">About Me</h1>
+      <div class="tentang-box">
+        <div class="bio-grid">
+          <img src="./portfolio-hcj/assets/images/hero3.webp" alt="Adisaputra Bio" data-aos="fade-right"
+            data-aos-duration="1000" data-aos-delay="200" />
+          <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+            <span class="badge">My Bio</span>
+            <p>
+              Hi, I am <span>Adisaputra Marbun</span>, a Bachelor of Informatics graduate from Universitas Bina Sarana
+              Informatika with experience in supporting Information Technology operations, web application development,
+              and troubleshooting system infrastructure. I am proficient in installing, configuring, and troubleshooting
+              hardware and software in Windows and Linux environments. Highly committed to continuous learning, adapting
+              quickly, and delivering effective IT solutions to support smooth business operations.
+            </p>
+
+            <!-- Stats Grid -->
+            <div class="stats-grid">
+              <div class="stat-card">
+                <h3>1.5+</h3>
+                <p>Years Experience</p>
+              </div>
+              <div class="stat-card">
+                <h3>10+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat-card">
+                <h3>30+</h3>
+                <p>Students Trained</p>
+              </div>
+            </div>
+
+            <a href="#project" class="btn btn-primary" style="margin-top: 30px;">View Project List</a>
+          </div>
+        </div>
+
+        <!-- Education Sub-section -->
+        <div class="education" data-aos="fade-up" data-aos-duration="1000">
+          <h2>Education</h2>
+          <div class="education-card">
+            <div class="education-left">
+              <h2>S1-Informatika</h2>
+              <h3>Universitas Bina Sarana Informatika</h3>
+              <p>2021 - 2025</p>
+              <span class="gpa-badge">GPA: 3.56 / 4.00</span>
+            </div>
+            <div class="education-right">
+              <p>
+                Studied the fundamentals of information technology, software engineering, database management systems
+                (DBMS), computer networks, and information systems. Developed a strong technical portfolio through
+                academic projects, independent internships, and hands-on exploration in web development, data analysis,
+                and systems administration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave divider to Resume -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-bottom-about">
+    <path fill-opacity="1"
+      d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+    </path>
+  </svg>
+
+  <!-- Resume / Experience Section -->
+  <section class="resume" id="resume">
+    <div class="container">
+      <div class="resume-header">
+        <span class="badge">Career Path</span>
+        <h1 data-aos="fade-up" data-aos-duration="1000">Resume</h1>
+        <div class="experience-title-row">
+          <h2>Experience</h2>
+          <a href="https://drive.google.com/file/d/1xaUJxJRwRnnhdfVjPtlbMPhBjkxAo_3G/view?usp=drive_link"
+            class="btn-download" target="_blank">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download CV
+          </a>
+        </div>
       </div>
 
-      <div class="social" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-        <a href="https://www.instagram.com/adia_2112/" target="_blank" aria-label="Instagram">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.facebook.com/adia.s.marbun/?locale=id_ID" target="_blank" aria-label="Facebook">
-          <i class="fa-brands fa-facebook-f"></i>
-        </a>
-        <a href="https://github.com/adiamarbun/adiamarbun" target="_blank" aria-label="GitHub">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/adisaputra-marbun/" target="_blank" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
+      <div class="resume-box">
+        <!-- Experience Card 1 -->
+        <div class="resume-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="info-side">
+            <h3 class="job-title">Trainer Robotics</h3>
+            <p class="company-name">PT Jaringan Global Robotik</p>
+            <p class="job-date"><i class="fa-regular fa-calendar-days" style="margin-right: 5px;"></i> Juni 2025 -
+              Present</p>
+            <span class="job-status">Part-Time</span>
+          </div>
+          <div class="desc-side">
+            <ul>
+              <li>Provided robotics, programming, and Internet of Things (IoT) training sessions to more than 30
+                participants.</li>
+              <li>Collaborated with a team of 35 instructors to design comprehensive curriculum modules and hands-on
+                microcontroller projects.</li>
+              <li>Provided prompt onsite and remote technical support to debug hardware wiring and resolve connectivity
+                failures during labs.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Card 2 (DUPLICATE COPY FIXED) -->
+        <div class="resume-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <div class="info-side">
+            <h3 class="job-title">IT Support Staff</h3>
+            <p class="company-name">Kementerian Energi dan Sumber Daya Mineral</p>
+            <p class="job-date"><i class="fa-regular fa-calendar-days" style="margin-right: 5px;"></i> Sep 2024 - Des
+              2024</p>
+            <span class="job-status">Internship</span>
+          </div>
+          <div class="desc-side">
+            <ul>
+              <li>Diagnosed and troubleshot client-side hardware, software, and local network issues to ensure
+                uninterrupted daily workflow.</li>
+              <li>Supported system maintenance by managing periodic server backups and assisting in configuring secure
+                server setups.</li>
+              <li>Installed, configured, and updated Windows and Linux systems alongside custom business software for
+                ministry staff.</li>
+            </ul>
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
 
-      <p class="copyright">&copy; Copyright 2025 by <span>Adisaputra Marbun.</span> All rights reserved.</p>
-    </footer>
+  <!-- Projects Section -->
+  <section class="project" id="project">
+    <div class="container">
+      <span class="badge" style="display: table; margin: 0 auto 10px auto;">Portfolio</span>
+      <h1 data-aos="fade-up" data-aos-duration="1000">Selected Projects</h1>
+      <p class="section-subtitle">A collection of web development and software projects</p>
 
-    <!-- Javascript Script -->
-    <script type="module" src="./src/js/script.js"></script>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="img-container">
+            <img src="./portfolio-hcj/assets/images/proyek/proyek5.webp" alt="LeafCheck App Screenshot" />
+          </div>
+          <div class="project-desc">
+            <h2>LeafCheck</h2>
+            <p>Developed a deep learning computer vision model in Python for plant leaf disease classification with over
+              4,000 processed images achieving 95% evaluation accuracy.</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Deep Learning</span>
+              <span>TensorFlow</span>
+              <span>Vercel</span>
+            </div>
+            <div class="project-btn">
+              <a href="https://leafcheck.vercel.app/" target="_blank">
+                Visit Website <i class="fa-solid fa-arrow-up-right-from-square"
+                  style="font-size: 0.8rem; margin-left: 5px;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
 
-    <!-- Typewriter Effect JS -->
-    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: ["Adisaputra Marbun", "a Web Developer", "a Data Analyst", "an IT Support Specialist"],
-        typeSpeed: 80,
-        loop: true,
-        backSpeed: 50,
-        showCursor: true,
-        backDelay: 1500,
-      });
-    </script>
-    
-    <!-- AOS Scroll Animation JS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        once: true
-      });
-    </script>
-  </body>
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <div class="img-container">
+            <img src="./portfolio-hcj/assets/images/proyek/proyek6.webp" alt="BengkelGO Landing Page Screenshot" />
+          </div>
+          <div class="project-desc">
+            <h2>Website Company</h2>
+            <p>A professional company profile website for an automotive workshop, featuring modern responsive layout
+              cards, custom layouts, and interactive UI components.</p>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Bootstrap</span>
+              <span>Responsive</span>
+            </div>
+            <div class="project-btn">
+              <a href="https://dieselgank.github.io/BengkelGO_LandingPage-Template/" target="_blank">
+                Visit Website <i class="fa-solid fa-arrow-up-right-from-square"
+                  style="font-size: 0.8rem; margin-left: 5px;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <div class="img-container">
+            <img src="./portfolio-hcj/assets/images/proyek/proyek7.webp" alt="BengkelGO Cashier Template Screenshot" />
+          </div>
+          <div class="project-desc">
+            <h2>Website Course</h2>
+            <p>Designed a clean online course and cashier management dashboard template, utilizing robust grid
+              configurations, stats cards, and invoice structures.</p>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>CSS Grid</span>
+            </div>
+            <div class="project-btn">
+              <a href="https://dieselgank.github.io/BengkelGO_CashierPage-Template/" target="_blank">
+                Visit Website <i class="fa-solid fa-arrow-up-right-from-square"
+                  style="font-size: 0.8rem; margin-left: 5px;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+          <div class="img-container">
+            <img src="./portfolio-hcj/assets/images/proyek/proyek8.webp" alt="TBotics Education Screenshot" />
+          </div>
+          <div class="project-desc">
+            <h2>TBotics Education</h2>
+            <p>An interactive learning portal for STEAM and robotics education, featuring user authentication, learning path navigation, academy dashboards, subscription packages, and competition challenges.</p>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive</span>
+            </div>
+            <div class="project-btn">
+              <a href="https://adiamarbun.github.io/school-education/" target="_blank">
+                Visit Website <i class="fa-solid fa-arrow-up-right-from-square"
+                  style="font-size: 0.8rem; margin-left: 5px;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technologies Section (FIXED LOGOS) -->
+  <section class="tools" id="tools">
+    <div class="container">
+      <span class="badge" style="display: table; margin: 0 auto 10px auto;">Tech Stack</span>
+      <h1 data-aos="fade-up" data-aos-duration="1000">Technologies & Tools</h1>
+      <p class="section-subtitle">Languages, libraries, frameworks, and applications I use</p>
+
+      <div class="tools-grid" data-aos="fade-up" data-aos-duration="1000">
+        <!-- 1 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/html.png" alt="HTML5 logo" />
+          <div>
+            <h3>HTML5 & CSS3</h3>
+            <p>Markup & Styles</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/js.png" alt="JavaScript logo" />
+          <div>
+            <h3>JavaScript</h3>
+            <p>Language</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/python.png" alt="Python logo" />
+          <div>
+            <h3>Python</h3>
+            <p>Language</p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/php.png" alt="PHP logo" />
+          <div>
+            <h3>PHP</h3>
+            <p>Language</p>
+          </div>
+        </div>
+        <!-- 5 (FIXED Next JS logo path) -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/nextjs.png" alt="Next.js logo" />
+          <div>
+            <h3>Next.js</h3>
+            <p>React Framework</p>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/reactjs.png" alt="React JS logo" />
+          <div>
+            <h3>React JS</h3>
+            <p>Library</p>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/nodejs.png" alt="Node JS logo" />
+          <div>
+            <h3>Node.js</h3>
+            <p>JS Runtime</p>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/tailwind.png" alt="Tailwind CSS logo" />
+          <div>
+            <h3>Tailwind CSS</h3>
+            <p>CSS Framework</p>
+          </div>
+        </div>
+        <!-- 9 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/bootstrap.png" alt="Bootstrap logo" />
+          <div>
+            <h3>Bootstrap</h3>
+            <p>CSS Framework</p>
+          </div>
+        </div>
+        <!-- 10 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/vscode.png" alt="VS Code logo" />
+          <div>
+            <h3>VS Code</h3>
+            <p>Code Editor</p>
+          </div>
+        </div>
+        <!-- 11 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/figma.png" alt="Figma logo" />
+          <div>
+            <h3>Figma</h3>
+            <p>Design App</p>
+          </div>
+        </div>
+        <!-- 12 -->
+        <div class="tool-card">
+          <img src="./portfolio-hcj/assets/images/tools/github.png" alt="GitHub logo" />
+          <div>
+            <h3>GitHub</h3>
+            <p>Repository</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave divider to Footer -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-footer">
+    <path fill-opacity="1"
+      d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,138.7C672,149,768,203,864,229.3C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
+
+  <!-- Contact & Footer Section -->
+  <footer id="contact">
+    <div class="footer-cta" data-aos="fade-up" data-aos-duration="1000">
+      <h2>Let's build something together!</h2>
+      <p>If you're looking for a web developer, data analyst, or IT specialist, feel free to reach out via email or
+        socials.</p>
+      <a href="mailto:adiamrbn8@gmail.com">adiamrbn8@gmail.com</a>
+    </div>
+
+    <div class="social" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <a href="https://www.instagram.com/adia_2112/" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/adia.s.marbun/?locale=id_ID" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="https://github.com/adiamarbun/adiamarbun" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/adisaputra-marbun/" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+    </div>
+
+    <p class="copyright">&copy; Copyright 2025 by <span>Adisaputra Marbun.</span> All rights reserved.</p>
+  </footer>
+
+  <!-- Javascript Script -->
+  <script type="module" src="./src/js/script.js"></script>
+
+  <!-- Typewriter Effect JS -->
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Adisaputra Marbun", "a Web Developer", "a Data Analyst", "an IT Support Specialist"],
+      typeSpeed: 80,
+      loop: true,
+      backSpeed: 50,
+      showCursor: true,
+      backDelay: 1500,
+    });
+  </script>
+
+  <!-- AOS Scroll Animation JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true
+    });
+  </script>
+</body>
+
 </html>
